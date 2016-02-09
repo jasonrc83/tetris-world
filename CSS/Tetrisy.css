@@ -1,0 +1,90 @@
+.background {
+    background: #b33b00;
+}
+
+.Title {
+    text-align: center;
+    margin-top: 69px;
+}
+
+.gameTitle {
+    font-weight: bold;
+    color: lime;
+    font-size: 42px;
+    text-shadow: 7px 3px 2px purple;
+}
+
+.next_piece {
+    background: orange;
+    border: 9px ridge yellow;
+    height: 225px;
+    width: 225px;
+    overflow: auto;
+    float: left;
+    margin-left: 25px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+
+
+.show_next {
+    font-weight: bold;
+    display: inline-block;
+    color: purple;
+    margin-top: 6px;
+    font-size: 25px;
+}
+
+.outer_border {
+    background: navy;
+    border: 14px groove purple;
+    height: 800px;
+    width: 1000px;
+    margin: auto;
+    overflow: auto;
+}
+
+.inner_border {
+    background: darkgrey;
+    height: 666px;
+    width: 420px;
+    float: right;
+    margin-right: 169px;
+    margin-top: 30px;
+    border: 10px ridge #004d00;
+}
+
+#game_play_board {
+    margin: auto;
+}
+
+.show_Score {
+    background: black;
+    height: 85px;
+    width: 169px;
+    float: left;
+    clear: left;
+    border: 7px inset grey;
+    margin-top: 69px;
+    margin-left: 55px;
+}
+
+.your_score {
+    color: white;
+    font-size: 20px;
+    margin-top: 8px;
+    display: block;
+    font-family: georgia;
+    text-align: center;
+}
+
+.scoreboard {
+    font-family: helvetica;
+    color: yellow;
+    margin-right: 10px;
+    margin-top: 19px;
+    display: block;
+    font-size: 20px;
+    text-align: right;
+}
